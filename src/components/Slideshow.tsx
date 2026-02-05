@@ -181,11 +181,6 @@ const Slideshow = () => {
           />
         ))}
       </div>
-
-      {/* Instructions */}
-      <p className="font-serif text-muted-foreground text-center mt-8 max-w-md z-10">
-        💡 Tip: Replace the placeholder images with your own photos and add your favorite song!
-      </p>
     </div>
   );
 };
