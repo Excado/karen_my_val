@@ -76,15 +76,17 @@ const Slideshow = () => {
   return (
     <div className="min-h-screen bg-romantic-gradient flex flex-col items-center justify-center px-4 relative overflow-hidden">
       {/* Audio element - replace src with your music file */}
-      <audio
-        ref={audioRef}
-        loop
-        muted={isMuted}
-        autoPlay
-      >
-        {/* Add your music file here */}
-        {/* <source src="/your-music-file.mp3" type="audio/mpeg" /> */}
-      </audio>
+<audio
+  ref={audioRef}
+  loop
+  muted={isMuted}
+  preload="auto"
+>
+  <source
+    src={`${import.meta.env.BASE_URL}music/Fall-in-Love.mp3`}
+    type="audio/mpeg"
+  />
+</audio>
 
       {/* Header */}
       <div className="text-center mb-8 z-10">
