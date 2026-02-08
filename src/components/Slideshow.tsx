@@ -5,25 +5,10 @@ import { Button } from "@/components/ui/button";
 // Placeholder images - replace these with your actual photos
 const photos = [
   {
-    url: "/placeholder.svg",
-    caption: "Our first adventure together ❤️",
+    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    caption: "Our first painting together in Nashville, after Valentine’s — March 2024. It was messy, it was fun, and it became a memory I’ll always cherish.",
   },
-  {
-    url: "/placeholder.svg",
-    caption: "That magical sunset we shared 🌅",
-  },
-  {
-    url: "/placeholder.svg",
-    caption: "Making memories every day 💕",
-  },
-  {
-    url: "/placeholder.svg",
-    caption: "My favorite smile in the world 😊",
-  },
-  {
-    url: "/placeholder.svg",
-    caption: "Forever grateful for you 💝",
-  },
+  
 ];
 
 const Slideshow = () => {
