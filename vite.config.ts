@@ -7,7 +7,7 @@ const __filename = fileURLToPath(new URL(import.meta.url));
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  base: "/my-valentine-s-wish/",
+  base: "/karen_my_val/",
   plugins: [react()],
   resolve: {
     alias: {
