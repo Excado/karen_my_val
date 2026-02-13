@@ -5,23 +5,23 @@ import { Button } from "@/components/ui/button";
 // Placeholder images - replace these with your actual photos
 const photos = [
   {
-    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    url: `${import.meta.env.BASE_URL}pictures/firstdate.jpeg`,
     caption: "Technically our first date.",
   },
   {
-    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    url: `${import.meta.env.BASE_URL}pictures/firstkiss.jpeg`,
     caption: "Our first Legal Kissss.",
   },
   {
-    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    url: `${import.meta.env.BASE_URL}pictures/myval.jpeg`,
     caption: "My forever valentine",
   },
   {
-    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    url: `${import.meta.env.BASE_URL}pictures/myheart.jpeg`,
     caption: "My heartttt",
   },
   {
-    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    url: `${import.meta.env.BASE_URL}pictures/mylove.jpeg`,
     caption: "I LOVE YOUUU SO MUCH",
   }
 ];
