@@ -23,7 +23,7 @@ const photos = [
   {
     url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
     caption: "I LOVE YOUUU SO MUCH",
-  },
+  }
 ];
 
 const Slideshow = () => {
