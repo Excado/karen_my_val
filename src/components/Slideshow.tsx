@@ -6,9 +6,24 @@ import { Button } from "@/components/ui/button";
 const photos = [
   {
     url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
-    caption: "Our first painting together in Nashville, after Valentine’s — March 2024. It was messy, it was fun, and it became a memory I’ll always cherish.",
+    caption: "Technically our first date.",
   },
-  
+  {
+    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    caption: "Our first Legal Kissss.",
+  },
+  {
+    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    caption: "My forever valentine",
+  },
+  {
+    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    caption: "My heartttt",
+  },
+  {
+    url: `${import.meta.env.BASE_URL}pictures/first-painting.jpeg`,
+    caption: "I LOVE YOUUU SO MUCH",
+  },
 ];
 
 const Slideshow = () => {
